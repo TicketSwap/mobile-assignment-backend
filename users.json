@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "firstName": "Ada",
+      "lastName": "Lovelace",
+      "age": 36,
+      "username": "ada",
+      "password": "chartreuse"
+    },
+    {
+      "id": "usr_2",
+      "firstName": "Grace",
+      "lastName": "Hopper",
+      "age": 29,
+      "username": "graceh",
+      "password": "compiler-1952"
+    },
+    {
+      "id": "usr_3",
+      "firstName": "Linus",
+      "lastName": "Torvalds",
+      "age": 30,
+      "username": "linus",
+      "password": "git-init"
+    }
+  ]
+}

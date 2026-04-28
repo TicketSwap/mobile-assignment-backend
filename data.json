@@ -1,0 +1,1382 @@
+{
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "Jazz Night 1: Summer Series",
+      "description": "A jazz event at Workshop Co-op. Show 1 of the season.",
+      "startsAt": "2026-06-08T18:00:00.000Z",
+      "venue": "Workshop Co-op",
+      "tickets": [
+        {
+          "id": "tkt_01_01",
+          "label": "GA",
+          "priceCents": 2537,
+          "currency": "USD",
+          "quantityAvailable": 12
+        },
+        {
+          "id": "tkt_01_02",
+          "label": "VIP",
+          "priceCents": 3337,
+          "currency": "USD",
+          "quantityAvailable": 23
+        }
+      ]
+    },
+    {
+      "id": "evt_02",
+      "title": "Techno Night 2: Fall Series",
+      "description": "A techno event at Central Park Amphitheater. Show 2 of the season.",
+      "startsAt": "2026-07-15T19:00:00.000Z",
+      "venue": "Central Park Amphitheater",
+      "tickets": [
+        {
+          "id": "tkt_02_01",
+          "label": "GA",
+          "priceCents": 2774,
+          "currency": "USD",
+          "quantityAvailable": 13
+        },
+        {
+          "id": "tkt_02_02",
+          "label": "Balcony",
+          "priceCents": 3574,
+          "currency": "USD",
+          "quantityAvailable": 24
+        },
+        {
+          "id": "tkt_02_03",
+          "label": "VIP",
+          "priceCents": 4374,
+          "currency": "USD",
+          "quantityAvailable": 35
+        }
+      ]
+    },
+    {
+      "id": "evt_03",
+      "title": "Classical Night 3: Winter Series",
+      "description": "A classical event at Orion Theater. Show 3 of the season.",
+      "startsAt": "2026-08-22T20:00:00.000Z",
+      "venue": "Orion Theater",
+      "tickets": [
+        {
+          "id": "tkt_03_01",
+          "label": "Early bird (early)",
+          "priceCents": 3011,
+          "currency": "USD",
+          "quantityAvailable": 14
+        },
+        {
+          "id": "tkt_03_02",
+          "label": "GA (late release)",
+          "priceCents": 3811,
+          "currency": "USD",
+          "quantityAvailable": 25
+        },
+        {
+          "id": "tkt_03_03",
+          "label": "Balcony",
+          "priceCents": 4611,
+          "currency": "USD",
+          "quantityAvailable": 36
+        },
+        {
+          "id": "tkt_03_04",
+          "label": "VIP (early)",
+          "priceCents": 5411,
+          "currency": "USD",
+          "quantityAvailable": 47
+        }
+      ]
+    },
+    {
+      "id": "evt_04",
+      "title": "Comedy Night 4: Spring Series",
+      "description": "A comedy event at Studio 9. Show 4 of the season.",
+      "startsAt": "2026-09-01T21:00:00.000Z",
+      "venue": "Studio 9",
+      "tickets": [
+        {
+          "id": "tkt_04_01",
+          "label": "General admission",
+          "priceCents": 3248,
+          "currency": "USD",
+          "quantityAvailable": 15
+        }
+      ]
+    },
+    {
+      "id": "evt_05",
+      "title": "Theater Night 5: Summer Series",
+      "description": "A theater event at Harbor Pavilion. Show 5 of the season.",
+      "startsAt": "2026-10-08T17:00:00.000Z",
+      "venue": "Harbor Pavilion",
+      "tickets": [
+        {
+          "id": "tkt_05_01",
+          "label": "GA",
+          "priceCents": 2985,
+          "currency": "USD",
+          "quantityAvailable": 16
+        },
+        {
+          "id": "tkt_05_02",
+          "label": "VIP",
+          "priceCents": 3785,
+          "currency": "USD",
+          "quantityAvailable": 27
+        }
+      ]
+    },
+    {
+      "id": "evt_06",
+      "title": "Talks Night 6: Fall Series",
+      "description": "A talks event at Grand Hall. Show 6 of the season.",
+      "startsAt": "2026-11-15T18:00:00.000Z",
+      "venue": "Grand Hall",
+      "tickets": [
+        {
+          "id": "tkt_06_01",
+          "label": "GA (early)",
+          "priceCents": 3222,
+          "currency": "USD",
+          "quantityAvailable": 17
+        },
+        {
+          "id": "tkt_06_02",
+          "label": "Balcony (late release)",
+          "priceCents": 4022,
+          "currency": "USD",
+          "quantityAvailable": 28
+        },
+        {
+          "id": "tkt_06_03",
+          "label": "VIP",
+          "priceCents": 4822,
+          "currency": "USD",
+          "quantityAvailable": 39
+        }
+      ]
+    },
+    {
+      "id": "evt_07",
+      "title": "Film Night 7: Winter Series",
+      "description": "A film event at The Foundry. Show 7 of the season.",
+      "startsAt": "2026-12-22T19:00:00.000Z",
+      "venue": "The Foundry",
+      "tickets": [
+        {
+          "id": "tkt_07_01",
+          "label": "Early bird",
+          "priceCents": 3459,
+          "currency": "USD",
+          "quantityAvailable": 18
+        },
+        {
+          "id": "tkt_07_02",
+          "label": "GA",
+          "priceCents": 4259,
+          "currency": "USD",
+          "quantityAvailable": 29
+        },
+        {
+          "id": "tkt_07_03",
+          "label": "Balcony",
+          "priceCents": 5059,
+          "currency": "USD",
+          "quantityAvailable": 40
+        },
+        {
+          "id": "tkt_07_04",
+          "label": "VIP",
+          "priceCents": 5859,
+          "currency": "USD",
+          "quantityAvailable": 51
+        }
+      ]
+    },
+    {
+      "id": "evt_08",
+      "title": "Rock Night 8: Spring Series",
+      "description": "A rock event at Northside Warehouse. Show 8 of the season.",
+      "startsAt": "2026-05-01T20:00:00.000Z",
+      "venue": "Northside Warehouse",
+      "tickets": [
+        {
+          "id": "tkt_08_01",
+          "label": "General admission",
+          "priceCents": 3696,
+          "currency": "USD",
+          "quantityAvailable": 19
+        }
+      ]
+    },
+    {
+      "id": "evt_09",
+      "title": "Folk Night 9: Summer Series",
+      "description": "A folk event at City Opera House. Show 9 of the season.",
+      "startsAt": "2026-06-08T21:00:00.000Z",
+      "venue": "City Opera House",
+      "tickets": [
+        {
+          "id": "tkt_09_01",
+          "label": "GA (early)",
+          "priceCents": 3933,
+          "currency": "USD",
+          "quantityAvailable": 20
+        },
+        {
+          "id": "tkt_09_02",
+          "label": "VIP (late release)",
+          "priceCents": 4733,
+          "currency": "USD",
+          "quantityAvailable": 31
+        }
+      ]
+    },
+    {
+      "id": "evt_10",
+      "title": "Hip-hop Night 10: Fall Series",
+      "description": "A hip-hop event at Lakeside Dome. Show 10 of the season.",
+      "startsAt": "2026-07-15T17:00:00.000Z",
+      "venue": "Lakeside Dome",
+      "tickets": [
+        {
+          "id": "tkt_10_01",
+          "label": "GA",
+          "priceCents": 3670,
+          "currency": "USD",
+          "quantityAvailable": 21
+        },
+        {
+          "id": "tkt_10_02",
+          "label": "Balcony",
+          "priceCents": 4470,
+          "currency": "USD",
+          "quantityAvailable": 32
+        },
+        {
+          "id": "tkt_10_03",
+          "label": "VIP",
+          "priceCents": 5270,
+          "currency": "USD",
+          "quantityAvailable": 43
+        }
+      ]
+    },
+    {
+      "id": "evt_11",
+      "title": "Blues Night 11: Winter Series",
+      "description": "A blues event at Metro Arena. Show 11 of the season.",
+      "startsAt": "2026-08-22T18:00:00.000Z",
+      "venue": "Metro Arena",
+      "tickets": [
+        {
+          "id": "tkt_11_01",
+          "label": "Early bird",
+          "priceCents": 3907,
+          "currency": "USD",
+          "quantityAvailable": 22
+        },
+        {
+          "id": "tkt_11_02",
+          "label": "GA",
+          "priceCents": 4707,
+          "currency": "USD",
+          "quantityAvailable": 33
+        },
+        {
+          "id": "tkt_11_03",
+          "label": "Balcony",
+          "priceCents": 5507,
+          "currency": "USD",
+          "quantityAvailable": 44
+        },
+        {
+          "id": "tkt_11_04",
+          "label": "VIP",
+          "priceCents": 6307,
+          "currency": "USD",
+          "quantityAvailable": 55
+        }
+      ]
+    },
+    {
+      "id": "evt_12",
+      "title": "Chamber Night 12: Spring Series",
+      "description": "A chamber event at Brickyard. Show 12 of the season.",
+      "startsAt": "2026-09-01T19:00:00.000Z",
+      "venue": "Brickyard",
+      "tickets": [
+        {
+          "id": "tkt_12_01",
+          "label": "General admission (early)",
+          "priceCents": 4144,
+          "currency": "USD",
+          "quantityAvailable": 23
+        }
+      ]
+    },
+    {
+      "id": "evt_13",
+      "title": "Stand-up Night 13: Summer Series",
+      "description": "A stand-up event at Sunset Rooftop. Show 13 of the season.",
+      "startsAt": "2026-10-08T20:00:00.000Z",
+      "venue": "Sunset Rooftop",
+      "tickets": [
+        {
+          "id": "tkt_13_01",
+          "label": "GA",
+          "priceCents": 4381,
+          "currency": "USD",
+          "quantityAvailable": 24
+        },
+        {
+          "id": "tkt_13_02",
+          "label": "VIP",
+          "priceCents": 5181,
+          "currency": "USD",
+          "quantityAvailable": 35
+        }
+      ]
+    },
+    {
+      "id": "evt_14",
+      "title": "Brunch Night 14: Fall Series",
+      "description": "A brunch event at East End Club. Show 14 of the season.",
+      "startsAt": "2026-11-15T21:00:00.000Z",
+      "venue": "East End Club",
+      "tickets": [
+        {
+          "id": "tkt_14_01",
+          "label": "GA",
+          "priceCents": 4618,
+          "currency": "USD",
+          "quantityAvailable": 25
+        },
+        {
+          "id": "tkt_14_02",
+          "label": "Balcony",
+          "priceCents": 5418,
+          "currency": "USD",
+          "quantityAvailable": 36
+        },
+        {
+          "id": "tkt_14_03",
+          "label": "VIP",
+          "priceCents": 6218,
+          "currency": "USD",
+          "quantityAvailable": 47
+        }
+      ]
+    },
+    {
+      "id": "evt_15",
+      "title": "Workshop Night 15: Winter Series",
+      "description": "A workshop event at Convention Center A. Show 15 of the season.",
+      "startsAt": "2026-12-22T17:00:00.000Z",
+      "venue": "Convention Center A",
+      "tickets": [
+        {
+          "id": "tkt_15_01",
+          "label": "Early bird (early)",
+          "priceCents": 4355,
+          "currency": "USD",
+          "quantityAvailable": 26
+        },
+        {
+          "id": "tkt_15_02",
+          "label": "GA (late release)",
+          "priceCents": 5155,
+          "currency": "USD",
+          "quantityAvailable": 37
+        },
+        {
+          "id": "tkt_15_03",
+          "label": "Balcony",
+          "priceCents": 5955,
+          "currency": "USD",
+          "quantityAvailable": 48
+        },
+        {
+          "id": "tkt_15_04",
+          "label": "VIP (early)",
+          "priceCents": 6755,
+          "currency": "USD",
+          "quantityAvailable": 59
+        }
+      ]
+    },
+    {
+      "id": "evt_16",
+      "title": "Indie Night 16: Spring Series",
+      "description": "A indie event at Jazz Cellar. Show 16 of the season.",
+      "startsAt": "2026-05-01T18:00:00.000Z",
+      "venue": "Jazz Cellar",
+      "tickets": [
+        {
+          "id": "tkt_16_01",
+          "label": "General admission",
+          "priceCents": 4592,
+          "currency": "USD",
+          "quantityAvailable": 27
+        }
+      ]
+    },
+    {
+      "id": "evt_17",
+      "title": "Jazz Night 17: Summer Series",
+      "description": "A jazz event at Union Square Stage. Show 17 of the season.",
+      "startsAt": "2026-06-08T19:00:00.000Z",
+      "venue": "Union Square Stage",
+      "tickets": [
+        {
+          "id": "tkt_17_01",
+          "label": "GA",
+          "priceCents": 4829,
+          "currency": "USD",
+          "quantityAvailable": 28
+        },
+        {
+          "id": "tkt_17_02",
+          "label": "VIP",
+          "priceCents": 5629,
+          "currency": "USD",
+          "quantityAvailable": 39
+        }
+      ]
+    },
+    {
+      "id": "evt_18",
+      "title": "Techno Night 18: Fall Series",
+      "description": "A techno event at Riverside Hall. Show 18 of the season.",
+      "startsAt": "2026-07-15T20:00:00.000Z",
+      "venue": "Riverside Hall",
+      "tickets": [
+        {
+          "id": "tkt_18_01",
+          "label": "GA (early)",
+          "priceCents": 5066,
+          "currency": "USD",
+          "quantityAvailable": 29
+        },
+        {
+          "id": "tkt_18_02",
+          "label": "Balcony (late release)",
+          "priceCents": 5866,
+          "currency": "USD",
+          "quantityAvailable": 40
+        },
+        {
+          "id": "tkt_18_03",
+          "label": "VIP",
+          "priceCents": 6666,
+          "currency": "USD",
+          "quantityAvailable": 51
+        }
+      ]
+    },
+    {
+      "id": "evt_19",
+      "title": "Classical Night 19: Winter Series",
+      "description": "A classical event at Workshop Co-op. Show 19 of the season.",
+      "startsAt": "2026-08-22T21:00:00.000Z",
+      "venue": "Workshop Co-op",
+      "tickets": [
+        {
+          "id": "tkt_19_01",
+          "label": "Early bird",
+          "priceCents": 5303,
+          "currency": "USD",
+          "quantityAvailable": 30
+        },
+        {
+          "id": "tkt_19_02",
+          "label": "GA",
+          "priceCents": 6103,
+          "currency": "USD",
+          "quantityAvailable": 41
+        },
+        {
+          "id": "tkt_19_03",
+          "label": "Balcony",
+          "priceCents": 6903,
+          "currency": "USD",
+          "quantityAvailable": 52
+        },
+        {
+          "id": "tkt_19_04",
+          "label": "VIP",
+          "priceCents": 7703,
+          "currency": "USD",
+          "quantityAvailable": 63
+        }
+      ]
+    },
+    {
+      "id": "evt_20",
+      "title": "Comedy Night 20: Spring Series",
+      "description": "A comedy event at Central Park Amphitheater. Show 20 of the season.",
+      "startsAt": "2026-09-01T17:00:00.000Z",
+      "venue": "Central Park Amphitheater",
+      "tickets": [
+        {
+          "id": "tkt_20_01",
+          "label": "General admission",
+          "priceCents": 5040,
+          "currency": "USD",
+          "quantityAvailable": 31
+        }
+      ]
+    },
+    {
+      "id": "evt_21",
+      "title": "Theater Night 21: Summer Series",
+      "description": "A theater event at Orion Theater. Show 21 of the season.",
+      "startsAt": "2026-10-08T18:00:00.000Z",
+      "venue": "Orion Theater",
+      "tickets": [
+        {
+          "id": "tkt_21_01",
+          "label": "GA (early)",
+          "priceCents": 5277,
+          "currency": "USD",
+          "quantityAvailable": 32
+        },
+        {
+          "id": "tkt_21_02",
+          "label": "VIP (late release)",
+          "priceCents": 6077,
+          "currency": "USD",
+          "quantityAvailable": 43
+        }
+      ]
+    },
+    {
+      "id": "evt_22",
+      "title": "Talks Night 22: Fall Series",
+      "description": "A talks event at Studio 9. Show 22 of the season.",
+      "startsAt": "2026-11-15T19:00:00.000Z",
+      "venue": "Studio 9",
+      "tickets": [
+        {
+          "id": "tkt_22_01",
+          "label": "GA",
+          "priceCents": 5514,
+          "currency": "USD",
+          "quantityAvailable": 33
+        },
+        {
+          "id": "tkt_22_02",
+          "label": "Balcony",
+          "priceCents": 6314,
+          "currency": "USD",
+          "quantityAvailable": 44
+        },
+        {
+          "id": "tkt_22_03",
+          "label": "VIP",
+          "priceCents": 7114,
+          "currency": "USD",
+          "quantityAvailable": 55
+        }
+      ]
+    },
+    {
+      "id": "evt_23",
+      "title": "Film Night 23: Winter Series",
+      "description": "A film event at Harbor Pavilion. Show 23 of the season.",
+      "startsAt": "2026-12-22T20:00:00.000Z",
+      "venue": "Harbor Pavilion",
+      "tickets": [
+        {
+          "id": "tkt_23_01",
+          "label": "Early bird",
+          "priceCents": 5751,
+          "currency": "USD",
+          "quantityAvailable": 34
+        },
+        {
+          "id": "tkt_23_02",
+          "label": "GA",
+          "priceCents": 6551,
+          "currency": "USD",
+          "quantityAvailable": 45
+        },
+        {
+          "id": "tkt_23_03",
+          "label": "Balcony",
+          "priceCents": 7351,
+          "currency": "USD",
+          "quantityAvailable": 56
+        },
+        {
+          "id": "tkt_23_04",
+          "label": "VIP",
+          "priceCents": 8151,
+          "currency": "USD",
+          "quantityAvailable": 67
+        }
+      ]
+    },
+    {
+      "id": "evt_24",
+      "title": "Rock Night 24: Spring Series",
+      "description": "A rock event at Grand Hall. Show 24 of the season.",
+      "startsAt": "2026-05-01T21:00:00.000Z",
+      "venue": "Grand Hall",
+      "tickets": [
+        {
+          "id": "tkt_24_01",
+          "label": "General admission (early)",
+          "priceCents": 5988,
+          "currency": "USD",
+          "quantityAvailable": 35
+        }
+      ]
+    },
+    {
+      "id": "evt_25",
+      "title": "Folk Night 25: Summer Series",
+      "description": "A folk event at The Foundry. Show 25 of the season.",
+      "startsAt": "2026-06-08T17:00:00.000Z",
+      "venue": "The Foundry",
+      "tickets": [
+        {
+          "id": "tkt_25_01",
+          "label": "GA",
+          "priceCents": 5725,
+          "currency": "USD",
+          "quantityAvailable": 36
+        },
+        {
+          "id": "tkt_25_02",
+          "label": "VIP",
+          "priceCents": 6525,
+          "currency": "USD",
+          "quantityAvailable": 47
+        }
+      ]
+    },
+    {
+      "id": "evt_26",
+      "title": "Hip-hop Night 26: Fall Series",
+      "description": "A hip-hop event at Northside Warehouse. Show 26 of the season.",
+      "startsAt": "2026-07-15T18:00:00.000Z",
+      "venue": "Northside Warehouse",
+      "tickets": [
+        {
+          "id": "tkt_26_01",
+          "label": "GA",
+          "priceCents": 5962,
+          "currency": "USD",
+          "quantityAvailable": 37
+        },
+        {
+          "id": "tkt_26_02",
+          "label": "Balcony",
+          "priceCents": 6762,
+          "currency": "USD",
+          "quantityAvailable": 48
+        },
+        {
+          "id": "tkt_26_03",
+          "label": "VIP",
+          "priceCents": 7562,
+          "currency": "USD",
+          "quantityAvailable": 59
+        }
+      ]
+    },
+    {
+      "id": "evt_27",
+      "title": "Blues Night 27: Winter Series",
+      "description": "A blues event at City Opera House. Show 27 of the season.",
+      "startsAt": "2026-08-22T19:00:00.000Z",
+      "venue": "City Opera House",
+      "tickets": [
+        {
+          "id": "tkt_27_01",
+          "label": "Early bird (early)",
+          "priceCents": 6199,
+          "currency": "USD",
+          "quantityAvailable": 38
+        },
+        {
+          "id": "tkt_27_02",
+          "label": "GA (late release)",
+          "priceCents": 6999,
+          "currency": "USD",
+          "quantityAvailable": 49
+        },
+        {
+          "id": "tkt_27_03",
+          "label": "Balcony",
+          "priceCents": 7799,
+          "currency": "USD",
+          "quantityAvailable": 60
+        },
+        {
+          "id": "tkt_27_04",
+          "label": "VIP (early)",
+          "priceCents": 8599,
+          "currency": "USD",
+          "quantityAvailable": 71
+        }
+      ]
+    },
+    {
+      "id": "evt_28",
+      "title": "Chamber Night 28: Spring Series",
+      "description": "A chamber event at Lakeside Dome. Show 28 of the season.",
+      "startsAt": "2026-09-01T20:00:00.000Z",
+      "venue": "Lakeside Dome",
+      "tickets": [
+        {
+          "id": "tkt_28_01",
+          "label": "General admission",
+          "priceCents": 6436,
+          "currency": "USD",
+          "quantityAvailable": 39
+        }
+      ]
+    },
+    {
+      "id": "evt_29",
+      "title": "Stand-up Night 29: Summer Series",
+      "description": "A stand-up event at Metro Arena. Show 29 of the season.",
+      "startsAt": "2026-10-08T21:00:00.000Z",
+      "venue": "Metro Arena",
+      "tickets": [
+        {
+          "id": "tkt_29_01",
+          "label": "GA",
+          "priceCents": 6673,
+          "currency": "USD",
+          "quantityAvailable": 40
+        },
+        {
+          "id": "tkt_29_02",
+          "label": "VIP",
+          "priceCents": 7473,
+          "currency": "USD",
+          "quantityAvailable": 51
+        }
+      ]
+    },
+    {
+      "id": "evt_30",
+      "title": "Brunch Night 30: Fall Series",
+      "description": "A brunch event at Brickyard. Show 30 of the season.",
+      "startsAt": "2026-11-15T17:00:00.000Z",
+      "venue": "Brickyard",
+      "tickets": [
+        {
+          "id": "tkt_30_01",
+          "label": "GA (early)",
+          "priceCents": 6410,
+          "currency": "USD",
+          "quantityAvailable": 41
+        },
+        {
+          "id": "tkt_30_02",
+          "label": "Balcony (late release)",
+          "priceCents": 7210,
+          "currency": "USD",
+          "quantityAvailable": 52
+        },
+        {
+          "id": "tkt_30_03",
+          "label": "VIP",
+          "priceCents": 8010,
+          "currency": "USD",
+          "quantityAvailable": 63
+        }
+      ]
+    },
+    {
+      "id": "evt_31",
+      "title": "Workshop Night 31: Winter Series",
+      "description": "A workshop event at Sunset Rooftop. Show 31 of the season.",
+      "startsAt": "2026-12-22T18:00:00.000Z",
+      "venue": "Sunset Rooftop",
+      "tickets": [
+        {
+          "id": "tkt_31_01",
+          "label": "Early bird",
+          "priceCents": 6647,
+          "currency": "USD",
+          "quantityAvailable": 42
+        },
+        {
+          "id": "tkt_31_02",
+          "label": "GA",
+          "priceCents": 7447,
+          "currency": "USD",
+          "quantityAvailable": 53
+        },
+        {
+          "id": "tkt_31_03",
+          "label": "Balcony",
+          "priceCents": 8247,
+          "currency": "USD",
+          "quantityAvailable": 64
+        },
+        {
+          "id": "tkt_31_04",
+          "label": "VIP",
+          "priceCents": 9047,
+          "currency": "USD",
+          "quantityAvailable": 75
+        }
+      ]
+    },
+    {
+      "id": "evt_32",
+      "title": "Indie Night 32: Spring Series",
+      "description": "A indie event at East End Club. Show 32 of the season.",
+      "startsAt": "2026-05-01T19:00:00.000Z",
+      "venue": "East End Club",
+      "tickets": [
+        {
+          "id": "tkt_32_01",
+          "label": "General admission",
+          "priceCents": 6884,
+          "currency": "USD",
+          "quantityAvailable": 43
+        }
+      ]
+    },
+    {
+      "id": "evt_33",
+      "title": "Jazz Night 33: Summer Series",
+      "description": "A jazz event at Convention Center A. Show 33 of the season.",
+      "startsAt": "2026-06-08T20:00:00.000Z",
+      "venue": "Convention Center A",
+      "tickets": [
+        {
+          "id": "tkt_33_01",
+          "label": "GA (early)",
+          "priceCents": 7121,
+          "currency": "USD",
+          "quantityAvailable": 44
+        },
+        {
+          "id": "tkt_33_02",
+          "label": "VIP (late release)",
+          "priceCents": 7921,
+          "currency": "USD",
+          "quantityAvailable": 55
+        }
+      ]
+    },
+    {
+      "id": "evt_34",
+      "title": "Techno Night 34: Fall Series",
+      "description": "A techno event at Jazz Cellar. Show 34 of the season.",
+      "startsAt": "2026-07-15T21:00:00.000Z",
+      "venue": "Jazz Cellar",
+      "tickets": [
+        {
+          "id": "tkt_34_01",
+          "label": "GA",
+          "priceCents": 7358,
+          "currency": "USD",
+          "quantityAvailable": 45
+        },
+        {
+          "id": "tkt_34_02",
+          "label": "Balcony",
+          "priceCents": 8158,
+          "currency": "USD",
+          "quantityAvailable": 56
+        },
+        {
+          "id": "tkt_34_03",
+          "label": "VIP",
+          "priceCents": 8958,
+          "currency": "USD",
+          "quantityAvailable": 67
+        }
+      ]
+    },
+    {
+      "id": "evt_35",
+      "title": "Classical Night 35: Winter Series",
+      "description": "A classical event at Union Square Stage. Show 35 of the season.",
+      "startsAt": "2026-08-22T17:00:00.000Z",
+      "venue": "Union Square Stage",
+      "tickets": [
+        {
+          "id": "tkt_35_01",
+          "label": "Early bird",
+          "priceCents": 7095,
+          "currency": "USD",
+          "quantityAvailable": 46
+        },
+        {
+          "id": "tkt_35_02",
+          "label": "GA",
+          "priceCents": 7895,
+          "currency": "USD",
+          "quantityAvailable": 57
+        },
+        {
+          "id": "tkt_35_03",
+          "label": "Balcony",
+          "priceCents": 8695,
+          "currency": "USD",
+          "quantityAvailable": 68
+        },
+        {
+          "id": "tkt_35_04",
+          "label": "VIP",
+          "priceCents": 9495,
+          "currency": "USD",
+          "quantityAvailable": 79
+        }
+      ]
+    },
+    {
+      "id": "evt_36",
+      "title": "Comedy Night 36: Spring Series",
+      "description": "A comedy event at Riverside Hall. Show 36 of the season.",
+      "startsAt": "2026-09-01T18:00:00.000Z",
+      "venue": "Riverside Hall",
+      "tickets": [
+        {
+          "id": "tkt_36_01",
+          "label": "General admission (early)",
+          "priceCents": 7332,
+          "currency": "USD",
+          "quantityAvailable": 47
+        }
+      ]
+    },
+    {
+      "id": "evt_37",
+      "title": "Theater Night 37: Summer Series",
+      "description": "A theater event at Workshop Co-op. Show 37 of the season.",
+      "startsAt": "2026-10-08T19:00:00.000Z",
+      "venue": "Workshop Co-op",
+      "tickets": [
+        {
+          "id": "tkt_37_01",
+          "label": "GA",
+          "priceCents": 7569,
+          "currency": "USD",
+          "quantityAvailable": 48
+        },
+        {
+          "id": "tkt_37_02",
+          "label": "VIP",
+          "priceCents": 8369,
+          "currency": "USD",
+          "quantityAvailable": 59
+        }
+      ]
+    },
+    {
+      "id": "evt_38",
+      "title": "Talks Night 38: Fall Series",
+      "description": "A talks event at Central Park Amphitheater. Show 38 of the season.",
+      "startsAt": "2026-11-15T20:00:00.000Z",
+      "venue": "Central Park Amphitheater",
+      "tickets": [
+        {
+          "id": "tkt_38_01",
+          "label": "GA",
+          "priceCents": 7806,
+          "currency": "USD",
+          "quantityAvailable": 49
+        },
+        {
+          "id": "tkt_38_02",
+          "label": "Balcony",
+          "priceCents": 8606,
+          "currency": "USD",
+          "quantityAvailable": 60
+        },
+        {
+          "id": "tkt_38_03",
+          "label": "VIP",
+          "priceCents": 9406,
+          "currency": "USD",
+          "quantityAvailable": 71
+        }
+      ]
+    },
+    {
+      "id": "evt_39",
+      "title": "Film Night 39: Winter Series",
+      "description": "A film event at Orion Theater. Show 39 of the season.",
+      "startsAt": "2026-12-22T21:00:00.000Z",
+      "venue": "Orion Theater",
+      "tickets": [
+        {
+          "id": "tkt_39_01",
+          "label": "Early bird (early)",
+          "priceCents": 8043,
+          "currency": "USD",
+          "quantityAvailable": 50
+        },
+        {
+          "id": "tkt_39_02",
+          "label": "GA (late release)",
+          "priceCents": 8843,
+          "currency": "USD",
+          "quantityAvailable": 61
+        },
+        {
+          "id": "tkt_39_03",
+          "label": "Balcony",
+          "priceCents": 9643,
+          "currency": "USD",
+          "quantityAvailable": 72
+        },
+        {
+          "id": "tkt_39_04",
+          "label": "VIP (early)",
+          "priceCents": 10443,
+          "currency": "USD",
+          "quantityAvailable": 83
+        }
+      ]
+    },
+    {
+      "id": "evt_40",
+      "title": "Rock Night 40: Spring Series",
+      "description": "A rock event at Studio 9. Show 40 of the season.",
+      "startsAt": "2026-05-01T17:00:00.000Z",
+      "venue": "Studio 9",
+      "tickets": [
+        {
+          "id": "tkt_40_01",
+          "label": "General admission",
+          "priceCents": 7780,
+          "currency": "USD",
+          "quantityAvailable": 51
+        }
+      ]
+    },
+    {
+      "id": "evt_41",
+      "title": "Folk Night 41: Summer Series",
+      "description": "A folk event at Harbor Pavilion. Show 41 of the season.",
+      "startsAt": "2026-06-08T18:00:00.000Z",
+      "venue": "Harbor Pavilion",
+      "tickets": [
+        {
+          "id": "tkt_41_01",
+          "label": "GA",
+          "priceCents": 8017,
+          "currency": "USD",
+          "quantityAvailable": 52
+        },
+        {
+          "id": "tkt_41_02",
+          "label": "VIP",
+          "priceCents": 8817,
+          "currency": "USD",
+          "quantityAvailable": 63
+        }
+      ]
+    },
+    {
+      "id": "evt_42",
+      "title": "Hip-hop Night 42: Fall Series",
+      "description": "A hip-hop event at Grand Hall. Show 42 of the season.",
+      "startsAt": "2026-07-15T19:00:00.000Z",
+      "venue": "Grand Hall",
+      "tickets": [
+        {
+          "id": "tkt_42_01",
+          "label": "GA (early)",
+          "priceCents": 8254,
+          "currency": "USD",
+          "quantityAvailable": 53
+        },
+        {
+          "id": "tkt_42_02",
+          "label": "Balcony (late release)",
+          "priceCents": 9054,
+          "currency": "USD",
+          "quantityAvailable": 64
+        },
+        {
+          "id": "tkt_42_03",
+          "label": "VIP",
+          "priceCents": 9854,
+          "currency": "USD",
+          "quantityAvailable": 75
+        }
+      ]
+    },
+    {
+      "id": "evt_43",
+      "title": "Blues Night 43: Winter Series",
+      "description": "A blues event at The Foundry. Show 43 of the season.",
+      "startsAt": "2026-08-22T20:00:00.000Z",
+      "venue": "The Foundry",
+      "tickets": [
+        {
+          "id": "tkt_43_01",
+          "label": "Early bird",
+          "priceCents": 8491,
+          "currency": "USD",
+          "quantityAvailable": 54
+        },
+        {
+          "id": "tkt_43_02",
+          "label": "GA",
+          "priceCents": 9291,
+          "currency": "USD",
+          "quantityAvailable": 65
+        },
+        {
+          "id": "tkt_43_03",
+          "label": "Balcony",
+          "priceCents": 10091,
+          "currency": "USD",
+          "quantityAvailable": 76
+        },
+        {
+          "id": "tkt_43_04",
+          "label": "VIP",
+          "priceCents": 10891,
+          "currency": "USD",
+          "quantityAvailable": 87
+        }
+      ]
+    },
+    {
+      "id": "evt_44",
+      "title": "Chamber Night 44: Spring Series",
+      "description": "A chamber event at Northside Warehouse. Show 44 of the season.",
+      "startsAt": "2026-09-01T21:00:00.000Z",
+      "venue": "Northside Warehouse",
+      "tickets": [
+        {
+          "id": "tkt_44_01",
+          "label": "General admission",
+          "priceCents": 8728,
+          "currency": "USD",
+          "quantityAvailable": 55
+        }
+      ]
+    },
+    {
+      "id": "evt_45",
+      "title": "Stand-up Night 45: Summer Series",
+      "description": "A stand-up event at City Opera House. Show 45 of the season.",
+      "startsAt": "2026-10-08T17:00:00.000Z",
+      "venue": "City Opera House",
+      "tickets": [
+        {
+          "id": "tkt_45_01",
+          "label": "GA (early)",
+          "priceCents": 8465,
+          "currency": "USD",
+          "quantityAvailable": 56
+        },
+        {
+          "id": "tkt_45_02",
+          "label": "VIP (late release)",
+          "priceCents": 9265,
+          "currency": "USD",
+          "quantityAvailable": 67
+        }
+      ]
+    },
+    {
+      "id": "evt_46",
+      "title": "Brunch Night 46: Fall Series",
+      "description": "A brunch event at Lakeside Dome. Show 46 of the season.",
+      "startsAt": "2026-11-15T18:00:00.000Z",
+      "venue": "Lakeside Dome",
+      "tickets": [
+        {
+          "id": "tkt_46_01",
+          "label": "GA",
+          "priceCents": 8702,
+          "currency": "USD",
+          "quantityAvailable": 57
+        },
+        {
+          "id": "tkt_46_02",
+          "label": "Balcony",
+          "priceCents": 9502,
+          "currency": "USD",
+          "quantityAvailable": 68
+        },
+        {
+          "id": "tkt_46_03",
+          "label": "VIP",
+          "priceCents": 10302,
+          "currency": "USD",
+          "quantityAvailable": 79
+        }
+      ]
+    },
+    {
+      "id": "evt_47",
+      "title": "Workshop Night 47: Winter Series",
+      "description": "A workshop event at Metro Arena. Show 47 of the season.",
+      "startsAt": "2026-12-22T19:00:00.000Z",
+      "venue": "Metro Arena",
+      "tickets": [
+        {
+          "id": "tkt_47_01",
+          "label": "Early bird",
+          "priceCents": 8939,
+          "currency": "USD",
+          "quantityAvailable": 58
+        },
+        {
+          "id": "tkt_47_02",
+          "label": "GA",
+          "priceCents": 9739,
+          "currency": "USD",
+          "quantityAvailable": 69
+        },
+        {
+          "id": "tkt_47_03",
+          "label": "Balcony",
+          "priceCents": 10539,
+          "currency": "USD",
+          "quantityAvailable": 80
+        },
+        {
+          "id": "tkt_47_04",
+          "label": "VIP",
+          "priceCents": 11339,
+          "currency": "USD",
+          "quantityAvailable": 91
+        }
+      ]
+    },
+    {
+      "id": "evt_48",
+      "title": "Indie Night 48: Spring Series",
+      "description": "A indie event at Brickyard. Show 48 of the season.",
+      "startsAt": "2026-05-01T20:00:00.000Z",
+      "venue": "Brickyard",
+      "tickets": [
+        {
+          "id": "tkt_48_01",
+          "label": "General admission (early)",
+          "priceCents": 9176,
+          "currency": "USD",
+          "quantityAvailable": 59
+        }
+      ]
+    },
+    {
+      "id": "evt_49",
+      "title": "Jazz Night 49: Summer Series",
+      "description": "A jazz event at Sunset Rooftop. Show 49 of the season.",
+      "startsAt": "2026-06-08T21:00:00.000Z",
+      "venue": "Sunset Rooftop",
+      "tickets": [
+        {
+          "id": "tkt_49_01",
+          "label": "GA",
+          "priceCents": 9413,
+          "currency": "USD",
+          "quantityAvailable": 60
+        },
+        {
+          "id": "tkt_49_02",
+          "label": "VIP",
+          "priceCents": 10213,
+          "currency": "USD",
+          "quantityAvailable": 71
+        }
+      ]
+    },
+    {
+      "id": "evt_50",
+      "title": "Techno Night 50: Fall Series",
+      "description": "A techno event at East End Club. Show 50 of the season.",
+      "startsAt": "2026-07-15T17:00:00.000Z",
+      "venue": "East End Club",
+      "tickets": [
+        {
+          "id": "tkt_50_01",
+          "label": "GA",
+          "priceCents": 9150,
+          "currency": "USD",
+          "quantityAvailable": 61
+        },
+        {
+          "id": "tkt_50_02",
+          "label": "Balcony",
+          "priceCents": 9950,
+          "currency": "USD",
+          "quantityAvailable": 72
+        },
+        {
+          "id": "tkt_50_03",
+          "label": "VIP",
+          "priceCents": 10750,
+          "currency": "USD",
+          "quantityAvailable": 83
+        }
+      ]
+    },
+    {
+      "id": "evt_51",
+      "title": "Classical Night 51: Winter Series",
+      "description": "A classical event at Convention Center A. Show 51 of the season.",
+      "startsAt": "2026-08-22T18:00:00.000Z",
+      "venue": "Convention Center A",
+      "tickets": [
+        {
+          "id": "tkt_51_01",
+          "label": "Early bird (early)",
+          "priceCents": 9387,
+          "currency": "USD",
+          "quantityAvailable": 62
+        },
+        {
+          "id": "tkt_51_02",
+          "label": "GA (late release)",
+          "priceCents": 10187,
+          "currency": "USD",
+          "quantityAvailable": 73
+        },
+        {
+          "id": "tkt_51_03",
+          "label": "Balcony",
+          "priceCents": 10987,
+          "currency": "USD",
+          "quantityAvailable": 84
+        },
+        {
+          "id": "tkt_51_04",
+          "label": "VIP (early)",
+          "priceCents": 11787,
+          "currency": "USD",
+          "quantityAvailable": 95
+        }
+      ]
+    },
+    {
+      "id": "evt_52",
+      "title": "Comedy Night 52: Spring Series",
+      "description": "A comedy event at Jazz Cellar. Show 52 of the season.",
+      "startsAt": "2026-09-01T19:00:00.000Z",
+      "venue": "Jazz Cellar",
+      "tickets": [
+        {
+          "id": "tkt_52_01",
+          "label": "General admission",
+          "priceCents": 9624,
+          "currency": "USD",
+          "quantityAvailable": 63
+        }
+      ]
+    }
+  ]
+}
