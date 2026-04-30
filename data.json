@@ -5,7 +5,7 @@
       "title": "Jazz Night 1: Summer Series",
       "description": "A jazz event at Workshop Co-op. Show 1 of the season.",
       "startsAt": "2026-06-08T18:00:00.000Z",
-      "venue": "Workshop Co-op",
+      "venueId": "ven_18",
       "tickets": [
         {
           "id": "tkt_01_01",
@@ -21,14 +21,15 @@
           "currency": "USD",
           "quantityAvailable": 23
         }
-      ]
+      ],
+      "imageFile": "event-jazz-night.jpg"
     },
     {
       "id": "evt_02",
       "title": "Techno Night 2: Fall Series",
       "description": "A techno event at Central Park Amphitheater. Show 2 of the season.",
       "startsAt": "2026-07-15T19:00:00.000Z",
-      "venue": "Central Park Amphitheater",
+      "venueId": "ven_02",
       "tickets": [
         {
           "id": "tkt_02_01",
@@ -51,14 +52,15 @@
           "currency": "USD",
           "quantityAvailable": 35
         }
-      ]
+      ],
+      "imageFile": "event-techno-night.jpg"
     },
     {
       "id": "evt_03",
       "title": "Classical Night 3: Winter Series",
       "description": "A classical event at Orion Theater. Show 3 of the season.",
       "startsAt": "2026-08-22T20:00:00.000Z",
-      "venue": "Orion Theater",
+      "venueId": "ven_12",
       "tickets": [
         {
           "id": "tkt_03_01",
@@ -88,14 +90,15 @@
           "currency": "USD",
           "quantityAvailable": 47
         }
-      ]
+      ],
+      "imageFile": "event-classical-night.jpg"
     },
     {
       "id": "evt_04",
       "title": "Comedy Night 4: Spring Series",
       "description": "A comedy event at Studio 9. Show 4 of the season.",
       "startsAt": "2026-09-01T21:00:00.000Z",
-      "venue": "Studio 9",
+      "venueId": "ven_14",
       "tickets": [
         {
           "id": "tkt_04_01",
@@ -104,14 +107,15 @@
           "currency": "USD",
           "quantityAvailable": 15
         }
-      ]
+      ],
+      "imageFile": "event-comedy-night.jpg"
     },
     {
       "id": "evt_05",
       "title": "Theater Night 5: Summer Series",
       "description": "A theater event at Harbor Pavilion. Show 5 of the season.",
       "startsAt": "2026-10-08T17:00:00.000Z",
-      "venue": "Harbor Pavilion",
+      "venueId": "ven_07",
       "tickets": [
         {
           "id": "tkt_05_01",
@@ -127,14 +131,15 @@
           "currency": "USD",
           "quantityAvailable": 27
         }
-      ]
+      ],
+      "imageFile": "event-theater-night.jpg"
     },
     {
       "id": "evt_06",
       "title": "Talks Night 6: Fall Series",
       "description": "A talks event at Grand Hall. Show 6 of the season.",
       "startsAt": "2026-11-15T18:00:00.000Z",
-      "venue": "Grand Hall",
+      "venueId": "ven_06",
       "tickets": [
         {
           "id": "tkt_06_01",
@@ -157,14 +162,15 @@
           "currency": "USD",
           "quantityAvailable": 39
         }
-      ]
+      ],
+      "imageFile": "event-talks-night.jpg"
     },
     {
       "id": "evt_07",
       "title": "Film Night 7: Winter Series",
       "description": "A film event at The Foundry. Show 7 of the season.",
       "startsAt": "2026-12-22T19:00:00.000Z",
-      "venue": "The Foundry",
+      "venueId": "ven_16",
       "tickets": [
         {
           "id": "tkt_07_01",
@@ -194,14 +200,15 @@
           "currency": "USD",
           "quantityAvailable": 51
         }
-      ]
+      ],
+      "imageFile": "event-film-night.jpg"
     },
     {
       "id": "evt_08",
       "title": "Rock Night 8: Spring Series",
       "description": "A rock event at Northside Warehouse. Show 8 of the season.",
       "startsAt": "2026-05-01T20:00:00.000Z",
-      "venue": "Northside Warehouse",
+      "venueId": "ven_11",
       "tickets": [
         {
           "id": "tkt_08_01",
@@ -210,14 +217,15 @@
           "currency": "USD",
           "quantityAvailable": 19
         }
-      ]
+      ],
+      "imageFile": "event-rock-night.jpg"
     },
     {
       "id": "evt_09",
       "title": "Folk Night 9: Summer Series",
       "description": "A folk event at City Opera House. Show 9 of the season.",
       "startsAt": "2026-06-08T21:00:00.000Z",
-      "venue": "City Opera House",
+      "venueId": "ven_03",
       "tickets": [
         {
           "id": "tkt_09_01",
@@ -233,14 +241,15 @@
           "currency": "USD",
           "quantityAvailable": 31
         }
-      ]
+      ],
+      "imageFile": "event-folk-night.jpg"
     },
     {
       "id": "evt_10",
       "title": "Hip-hop Night 10: Fall Series",
       "description": "A hip-hop event at Lakeside Dome. Show 10 of the season.",
       "startsAt": "2026-07-15T17:00:00.000Z",
-      "venue": "Lakeside Dome",
+      "venueId": "ven_09",
       "tickets": [
         {
           "id": "tkt_10_01",
@@ -263,14 +272,15 @@
           "currency": "USD",
           "quantityAvailable": 43
         }
-      ]
+      ],
+      "imageFile": "event-hip-hop-night.jpg"
     },
     {
       "id": "evt_11",
       "title": "Blues Night 11: Winter Series",
       "description": "A blues event at Metro Arena. Show 11 of the season.",
       "startsAt": "2026-08-22T18:00:00.000Z",
-      "venue": "Metro Arena",
+      "venueId": "ven_10",
       "tickets": [
         {
           "id": "tkt_11_01",
@@ -300,14 +310,15 @@
           "currency": "USD",
           "quantityAvailable": 55
         }
-      ]
+      ],
+      "imageFile": "event-blues-night.jpg"
     },
     {
       "id": "evt_12",
       "title": "Chamber Night 12: Spring Series",
       "description": "A chamber event at Brickyard. Show 12 of the season.",
       "startsAt": "2026-09-01T19:00:00.000Z",
-      "venue": "Brickyard",
+      "venueId": "ven_01",
       "tickets": [
         {
           "id": "tkt_12_01",
@@ -316,14 +327,15 @@
           "currency": "USD",
           "quantityAvailable": 23
         }
-      ]
+      ],
+      "imageFile": "event-chamber-night.jpg"
     },
     {
       "id": "evt_13",
       "title": "Stand-up Night 13: Summer Series",
       "description": "A stand-up event at Sunset Rooftop. Show 13 of the season.",
       "startsAt": "2026-10-08T20:00:00.000Z",
-      "venue": "Sunset Rooftop",
+      "venueId": "ven_15",
       "tickets": [
         {
           "id": "tkt_13_01",
@@ -339,14 +351,15 @@
           "currency": "USD",
           "quantityAvailable": 35
         }
-      ]
+      ],
+      "imageFile": "event-stand-up-night.jpg"
     },
     {
       "id": "evt_14",
       "title": "Brunch Night 14: Fall Series",
       "description": "A brunch event at East End Club. Show 14 of the season.",
       "startsAt": "2026-11-15T21:00:00.000Z",
-      "venue": "East End Club",
+      "venueId": "ven_05",
       "tickets": [
         {
           "id": "tkt_14_01",
@@ -369,14 +382,15 @@
           "currency": "USD",
           "quantityAvailable": 47
         }
-      ]
+      ],
+      "imageFile": "event-brunch-night.jpg"
     },
     {
       "id": "evt_15",
       "title": "Workshop Night 15: Winter Series",
       "description": "A workshop event at Convention Center A. Show 15 of the season.",
       "startsAt": "2026-12-22T17:00:00.000Z",
-      "venue": "Convention Center A",
+      "venueId": "ven_04",
       "tickets": [
         {
           "id": "tkt_15_01",
@@ -406,14 +420,15 @@
           "currency": "USD",
           "quantityAvailable": 59
         }
-      ]
+      ],
+      "imageFile": "event-workshop-night.jpg"
     },
     {
       "id": "evt_16",
       "title": "Indie Night 16: Spring Series",
       "description": "A indie event at Jazz Cellar. Show 16 of the season.",
       "startsAt": "2026-05-01T18:00:00.000Z",
-      "venue": "Jazz Cellar",
+      "venueId": "ven_08",
       "tickets": [
         {
           "id": "tkt_16_01",
@@ -422,14 +437,15 @@
           "currency": "USD",
           "quantityAvailable": 27
         }
-      ]
+      ],
+      "imageFile": "event-indie-night.jpg"
     },
     {
       "id": "evt_17",
       "title": "Jazz Night 17: Summer Series",
       "description": "A jazz event at Union Square Stage. Show 17 of the season.",
       "startsAt": "2026-06-08T19:00:00.000Z",
-      "venue": "Union Square Stage",
+      "venueId": "ven_17",
       "tickets": [
         {
           "id": "tkt_17_01",
@@ -445,14 +461,15 @@
           "currency": "USD",
           "quantityAvailable": 39
         }
-      ]
+      ],
+      "imageFile": "event-jazz-night.jpg"
     },
     {
       "id": "evt_18",
       "title": "Techno Night 18: Fall Series",
       "description": "A techno event at Riverside Hall. Show 18 of the season.",
       "startsAt": "2026-07-15T20:00:00.000Z",
-      "venue": "Riverside Hall",
+      "venueId": "ven_13",
       "tickets": [
         {
           "id": "tkt_18_01",
@@ -475,14 +492,15 @@
           "currency": "USD",
           "quantityAvailable": 51
         }
-      ]
+      ],
+      "imageFile": "event-techno-night.jpg"
     },
     {
       "id": "evt_19",
       "title": "Classical Night 19: Winter Series",
       "description": "A classical event at Workshop Co-op. Show 19 of the season.",
       "startsAt": "2026-08-22T21:00:00.000Z",
-      "venue": "Workshop Co-op",
+      "venueId": "ven_18",
       "tickets": [
         {
           "id": "tkt_19_01",
@@ -512,14 +530,15 @@
           "currency": "USD",
           "quantityAvailable": 63
         }
-      ]
+      ],
+      "imageFile": "event-classical-night.jpg"
     },
     {
       "id": "evt_20",
       "title": "Comedy Night 20: Spring Series",
       "description": "A comedy event at Central Park Amphitheater. Show 20 of the season.",
       "startsAt": "2026-09-01T17:00:00.000Z",
-      "venue": "Central Park Amphitheater",
+      "venueId": "ven_02",
       "tickets": [
         {
           "id": "tkt_20_01",
@@ -528,14 +547,15 @@
           "currency": "USD",
           "quantityAvailable": 31
         }
-      ]
+      ],
+      "imageFile": "event-comedy-night.jpg"
     },
     {
       "id": "evt_21",
       "title": "Theater Night 21: Summer Series",
       "description": "A theater event at Orion Theater. Show 21 of the season.",
       "startsAt": "2026-10-08T18:00:00.000Z",
-      "venue": "Orion Theater",
+      "venueId": "ven_12",
       "tickets": [
         {
           "id": "tkt_21_01",
@@ -551,14 +571,15 @@
           "currency": "USD",
           "quantityAvailable": 43
         }
-      ]
+      ],
+      "imageFile": "event-theater-night.jpg"
     },
     {
       "id": "evt_22",
       "title": "Talks Night 22: Fall Series",
       "description": "A talks event at Studio 9. Show 22 of the season.",
       "startsAt": "2026-11-15T19:00:00.000Z",
-      "venue": "Studio 9",
+      "venueId": "ven_14",
       "tickets": [
         {
           "id": "tkt_22_01",
@@ -581,14 +602,15 @@
           "currency": "USD",
           "quantityAvailable": 55
         }
-      ]
+      ],
+      "imageFile": "event-talks-night.jpg"
     },
     {
       "id": "evt_23",
       "title": "Film Night 23: Winter Series",
       "description": "A film event at Harbor Pavilion. Show 23 of the season.",
       "startsAt": "2026-12-22T20:00:00.000Z",
-      "venue": "Harbor Pavilion",
+      "venueId": "ven_07",
       "tickets": [
         {
           "id": "tkt_23_01",
@@ -618,14 +640,15 @@
           "currency": "USD",
           "quantityAvailable": 67
         }
-      ]
+      ],
+      "imageFile": "event-film-night.jpg"
     },
     {
       "id": "evt_24",
       "title": "Rock Night 24: Spring Series",
       "description": "A rock event at Grand Hall. Show 24 of the season.",
       "startsAt": "2026-05-01T21:00:00.000Z",
-      "venue": "Grand Hall",
+      "venueId": "ven_06",
       "tickets": [
         {
           "id": "tkt_24_01",
@@ -634,14 +657,15 @@
           "currency": "USD",
           "quantityAvailable": 35
         }
-      ]
+      ],
+      "imageFile": "event-rock-night.jpg"
     },
     {
       "id": "evt_25",
       "title": "Folk Night 25: Summer Series",
       "description": "A folk event at The Foundry. Show 25 of the season.",
       "startsAt": "2026-06-08T17:00:00.000Z",
-      "venue": "The Foundry",
+      "venueId": "ven_16",
       "tickets": [
         {
           "id": "tkt_25_01",
@@ -657,14 +681,15 @@
           "currency": "USD",
           "quantityAvailable": 47
         }
-      ]
+      ],
+      "imageFile": "event-folk-night.jpg"
     },
     {
       "id": "evt_26",
       "title": "Hip-hop Night 26: Fall Series",
       "description": "A hip-hop event at Northside Warehouse. Show 26 of the season.",
       "startsAt": "2026-07-15T18:00:00.000Z",
-      "venue": "Northside Warehouse",
+      "venueId": "ven_11",
       "tickets": [
         {
           "id": "tkt_26_01",
@@ -687,14 +712,15 @@
           "currency": "USD",
           "quantityAvailable": 59
         }
-      ]
+      ],
+      "imageFile": "event-hip-hop-night.jpg"
     },
     {
       "id": "evt_27",
       "title": "Blues Night 27: Winter Series",
       "description": "A blues event at City Opera House. Show 27 of the season.",
       "startsAt": "2026-08-22T19:00:00.000Z",
-      "venue": "City Opera House",
+      "venueId": "ven_03",
       "tickets": [
         {
           "id": "tkt_27_01",
@@ -724,14 +750,15 @@
           "currency": "USD",
           "quantityAvailable": 71
         }
-      ]
+      ],
+      "imageFile": "event-blues-night.jpg"
     },
     {
       "id": "evt_28",
       "title": "Chamber Night 28: Spring Series",
       "description": "A chamber event at Lakeside Dome. Show 28 of the season.",
       "startsAt": "2026-09-01T20:00:00.000Z",
-      "venue": "Lakeside Dome",
+      "venueId": "ven_09",
       "tickets": [
         {
           "id": "tkt_28_01",
@@ -740,14 +767,15 @@
           "currency": "USD",
           "quantityAvailable": 39
         }
-      ]
+      ],
+      "imageFile": "event-chamber-night.jpg"
     },
     {
       "id": "evt_29",
       "title": "Stand-up Night 29: Summer Series",
       "description": "A stand-up event at Metro Arena. Show 29 of the season.",
       "startsAt": "2026-10-08T21:00:00.000Z",
-      "venue": "Metro Arena",
+      "venueId": "ven_10",
       "tickets": [
         {
           "id": "tkt_29_01",
@@ -763,14 +791,15 @@
           "currency": "USD",
           "quantityAvailable": 51
         }
-      ]
+      ],
+      "imageFile": "event-stand-up-night.jpg"
     },
     {
       "id": "evt_30",
       "title": "Brunch Night 30: Fall Series",
       "description": "A brunch event at Brickyard. Show 30 of the season.",
       "startsAt": "2026-11-15T17:00:00.000Z",
-      "venue": "Brickyard",
+      "venueId": "ven_01",
       "tickets": [
         {
           "id": "tkt_30_01",
@@ -793,14 +822,15 @@
           "currency": "USD",
           "quantityAvailable": 63
         }
-      ]
+      ],
+      "imageFile": "event-brunch-night.jpg"
     },
     {
       "id": "evt_31",
       "title": "Workshop Night 31: Winter Series",
       "description": "A workshop event at Sunset Rooftop. Show 31 of the season.",
       "startsAt": "2026-12-22T18:00:00.000Z",
-      "venue": "Sunset Rooftop",
+      "venueId": "ven_15",
       "tickets": [
         {
           "id": "tkt_31_01",
@@ -830,14 +860,15 @@
           "currency": "USD",
           "quantityAvailable": 75
         }
-      ]
+      ],
+      "imageFile": "event-workshop-night.jpg"
     },
     {
       "id": "evt_32",
       "title": "Indie Night 32: Spring Series",
       "description": "A indie event at East End Club. Show 32 of the season.",
       "startsAt": "2026-05-01T19:00:00.000Z",
-      "venue": "East End Club",
+      "venueId": "ven_05",
       "tickets": [
         {
           "id": "tkt_32_01",
@@ -846,14 +877,15 @@
           "currency": "USD",
           "quantityAvailable": 43
         }
-      ]
+      ],
+      "imageFile": "event-indie-night.jpg"
     },
     {
       "id": "evt_33",
       "title": "Jazz Night 33: Summer Series",
       "description": "A jazz event at Convention Center A. Show 33 of the season.",
       "startsAt": "2026-06-08T20:00:00.000Z",
-      "venue": "Convention Center A",
+      "venueId": "ven_04",
       "tickets": [
         {
           "id": "tkt_33_01",
@@ -869,14 +901,15 @@
           "currency": "USD",
           "quantityAvailable": 55
         }
-      ]
+      ],
+      "imageFile": "event-jazz-night.jpg"
     },
     {
       "id": "evt_34",
       "title": "Techno Night 34: Fall Series",
       "description": "A techno event at Jazz Cellar. Show 34 of the season.",
       "startsAt": "2026-07-15T21:00:00.000Z",
-      "venue": "Jazz Cellar",
+      "venueId": "ven_08",
       "tickets": [
         {
           "id": "tkt_34_01",
@@ -899,14 +932,15 @@
           "currency": "USD",
           "quantityAvailable": 67
         }
-      ]
+      ],
+      "imageFile": "event-techno-night.jpg"
     },
     {
       "id": "evt_35",
       "title": "Classical Night 35: Winter Series",
       "description": "A classical event at Union Square Stage. Show 35 of the season.",
       "startsAt": "2026-08-22T17:00:00.000Z",
-      "venue": "Union Square Stage",
+      "venueId": "ven_17",
       "tickets": [
         {
           "id": "tkt_35_01",
@@ -936,14 +970,15 @@
           "currency": "USD",
           "quantityAvailable": 79
         }
-      ]
+      ],
+      "imageFile": "event-classical-night.jpg"
     },
     {
       "id": "evt_36",
       "title": "Comedy Night 36: Spring Series",
       "description": "A comedy event at Riverside Hall. Show 36 of the season.",
       "startsAt": "2026-09-01T18:00:00.000Z",
-      "venue": "Riverside Hall",
+      "venueId": "ven_13",
       "tickets": [
         {
           "id": "tkt_36_01",
@@ -952,14 +987,15 @@
           "currency": "USD",
           "quantityAvailable": 47
         }
-      ]
+      ],
+      "imageFile": "event-comedy-night.jpg"
     },
     {
       "id": "evt_37",
       "title": "Theater Night 37: Summer Series",
       "description": "A theater event at Workshop Co-op. Show 37 of the season.",
       "startsAt": "2026-10-08T19:00:00.000Z",
-      "venue": "Workshop Co-op",
+      "venueId": "ven_18",
       "tickets": [
         {
           "id": "tkt_37_01",
@@ -975,14 +1011,15 @@
           "currency": "USD",
           "quantityAvailable": 59
         }
-      ]
+      ],
+      "imageFile": "event-theater-night.jpg"
     },
     {
       "id": "evt_38",
       "title": "Talks Night 38: Fall Series",
       "description": "A talks event at Central Park Amphitheater. Show 38 of the season.",
       "startsAt": "2026-11-15T20:00:00.000Z",
-      "venue": "Central Park Amphitheater",
+      "venueId": "ven_02",
       "tickets": [
         {
           "id": "tkt_38_01",
@@ -1005,14 +1042,15 @@
           "currency": "USD",
           "quantityAvailable": 71
         }
-      ]
+      ],
+      "imageFile": "event-talks-night.jpg"
     },
     {
       "id": "evt_39",
       "title": "Film Night 39: Winter Series",
       "description": "A film event at Orion Theater. Show 39 of the season.",
       "startsAt": "2026-12-22T21:00:00.000Z",
-      "venue": "Orion Theater",
+      "venueId": "ven_12",
       "tickets": [
         {
           "id": "tkt_39_01",
@@ -1042,14 +1080,15 @@
           "currency": "USD",
           "quantityAvailable": 83
         }
-      ]
+      ],
+      "imageFile": "event-film-night.jpg"
     },
     {
       "id": "evt_40",
       "title": "Rock Night 40: Spring Series",
       "description": "A rock event at Studio 9. Show 40 of the season.",
       "startsAt": "2026-05-01T17:00:00.000Z",
-      "venue": "Studio 9",
+      "venueId": "ven_14",
       "tickets": [
         {
           "id": "tkt_40_01",
@@ -1058,14 +1097,15 @@
           "currency": "USD",
           "quantityAvailable": 51
         }
-      ]
+      ],
+      "imageFile": "event-rock-night.jpg"
     },
     {
       "id": "evt_41",
       "title": "Folk Night 41: Summer Series",
       "description": "A folk event at Harbor Pavilion. Show 41 of the season.",
       "startsAt": "2026-06-08T18:00:00.000Z",
-      "venue": "Harbor Pavilion",
+      "venueId": "ven_07",
       "tickets": [
         {
           "id": "tkt_41_01",
@@ -1081,14 +1121,15 @@
           "currency": "USD",
           "quantityAvailable": 63
         }
-      ]
+      ],
+      "imageFile": "event-folk-night.jpg"
     },
     {
       "id": "evt_42",
       "title": "Hip-hop Night 42: Fall Series",
       "description": "A hip-hop event at Grand Hall. Show 42 of the season.",
       "startsAt": "2026-07-15T19:00:00.000Z",
-      "venue": "Grand Hall",
+      "venueId": "ven_06",
       "tickets": [
         {
           "id": "tkt_42_01",
@@ -1111,14 +1152,15 @@
           "currency": "USD",
           "quantityAvailable": 75
         }
-      ]
+      ],
+      "imageFile": "event-hip-hop-night.jpg"
     },
     {
       "id": "evt_43",
       "title": "Blues Night 43: Winter Series",
       "description": "A blues event at The Foundry. Show 43 of the season.",
       "startsAt": "2026-08-22T20:00:00.000Z",
-      "venue": "The Foundry",
+      "venueId": "ven_16",
       "tickets": [
         {
           "id": "tkt_43_01",
@@ -1148,14 +1190,15 @@
           "currency": "USD",
           "quantityAvailable": 87
         }
-      ]
+      ],
+      "imageFile": "event-blues-night.jpg"
     },
     {
       "id": "evt_44",
       "title": "Chamber Night 44: Spring Series",
       "description": "A chamber event at Northside Warehouse. Show 44 of the season.",
       "startsAt": "2026-09-01T21:00:00.000Z",
-      "venue": "Northside Warehouse",
+      "venueId": "ven_11",
       "tickets": [
         {
           "id": "tkt_44_01",
@@ -1164,14 +1207,15 @@
           "currency": "USD",
           "quantityAvailable": 55
         }
-      ]
+      ],
+      "imageFile": "event-chamber-night.jpg"
     },
     {
       "id": "evt_45",
       "title": "Stand-up Night 45: Summer Series",
       "description": "A stand-up event at City Opera House. Show 45 of the season.",
       "startsAt": "2026-10-08T17:00:00.000Z",
-      "venue": "City Opera House",
+      "venueId": "ven_03",
       "tickets": [
         {
           "id": "tkt_45_01",
@@ -1187,14 +1231,15 @@
           "currency": "USD",
           "quantityAvailable": 67
         }
-      ]
+      ],
+      "imageFile": "event-stand-up-night.jpg"
     },
     {
       "id": "evt_46",
       "title": "Brunch Night 46: Fall Series",
       "description": "A brunch event at Lakeside Dome. Show 46 of the season.",
       "startsAt": "2026-11-15T18:00:00.000Z",
-      "venue": "Lakeside Dome",
+      "venueId": "ven_09",
       "tickets": [
         {
           "id": "tkt_46_01",
@@ -1217,14 +1262,15 @@
           "currency": "USD",
           "quantityAvailable": 79
         }
-      ]
+      ],
+      "imageFile": "event-brunch-night.jpg"
     },
     {
       "id": "evt_47",
       "title": "Workshop Night 47: Winter Series",
       "description": "A workshop event at Metro Arena. Show 47 of the season.",
       "startsAt": "2026-12-22T19:00:00.000Z",
-      "venue": "Metro Arena",
+      "venueId": "ven_10",
       "tickets": [
         {
           "id": "tkt_47_01",
@@ -1254,14 +1300,15 @@
           "currency": "USD",
           "quantityAvailable": 91
         }
-      ]
+      ],
+      "imageFile": "event-workshop-night.jpg"
     },
     {
       "id": "evt_48",
       "title": "Indie Night 48: Spring Series",
       "description": "A indie event at Brickyard. Show 48 of the season.",
       "startsAt": "2026-05-01T20:00:00.000Z",
-      "venue": "Brickyard",
+      "venueId": "ven_01",
       "tickets": [
         {
           "id": "tkt_48_01",
@@ -1270,14 +1317,15 @@
           "currency": "USD",
           "quantityAvailable": 59
         }
-      ]
+      ],
+      "imageFile": "event-indie-night.jpg"
     },
     {
       "id": "evt_49",
       "title": "Jazz Night 49: Summer Series",
       "description": "A jazz event at Sunset Rooftop. Show 49 of the season.",
       "startsAt": "2026-06-08T21:00:00.000Z",
-      "venue": "Sunset Rooftop",
+      "venueId": "ven_15",
       "tickets": [
         {
           "id": "tkt_49_01",
@@ -1293,14 +1341,15 @@
           "currency": "USD",
           "quantityAvailable": 71
         }
-      ]
+      ],
+      "imageFile": "event-jazz-night.jpg"
     },
     {
       "id": "evt_50",
       "title": "Techno Night 50: Fall Series",
       "description": "A techno event at East End Club. Show 50 of the season.",
       "startsAt": "2026-07-15T17:00:00.000Z",
-      "venue": "East End Club",
+      "venueId": "ven_05",
       "tickets": [
         {
           "id": "tkt_50_01",
@@ -1323,14 +1372,15 @@
           "currency": "USD",
           "quantityAvailable": 83
         }
-      ]
+      ],
+      "imageFile": "event-techno-night.jpg"
     },
     {
       "id": "evt_51",
       "title": "Classical Night 51: Winter Series",
       "description": "A classical event at Convention Center A. Show 51 of the season.",
       "startsAt": "2026-08-22T18:00:00.000Z",
-      "venue": "Convention Center A",
+      "venueId": "ven_04",
       "tickets": [
         {
           "id": "tkt_51_01",
@@ -1360,14 +1410,15 @@
           "currency": "USD",
           "quantityAvailable": 95
         }
-      ]
+      ],
+      "imageFile": "event-classical-night.jpg"
     },
     {
       "id": "evt_52",
       "title": "Comedy Night 52: Spring Series",
       "description": "A comedy event at Jazz Cellar. Show 52 of the season.",
       "startsAt": "2026-09-01T19:00:00.000Z",
-      "venue": "Jazz Cellar",
+      "venueId": "ven_08",
       "tickets": [
         {
           "id": "tkt_52_01",
@@ -1376,7 +1427,8 @@
           "currency": "USD",
           "quantityAvailable": 63
         }
-      ]
+      ],
+      "imageFile": "event-comedy-night.jpg"
     }
   ]
 }

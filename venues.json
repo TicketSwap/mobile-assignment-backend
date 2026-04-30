@@ -1,0 +1,94 @@
+{
+  "venues": [
+    {
+      "id": "ven_01",
+      "name": "Brickyard",
+      "imageFile": "venue-ven_01.jpg"
+    },
+    {
+      "id": "ven_02",
+      "name": "Central Park Amphitheater",
+      "imageFile": "venue-ven_02.jpg"
+    },
+    {
+      "id": "ven_03",
+      "name": "City Opera House",
+      "imageFile": "venue-ven_03.jpg"
+    },
+    {
+      "id": "ven_04",
+      "name": "Convention Center A",
+      "imageFile": "venue-ven_04.jpg"
+    },
+    {
+      "id": "ven_05",
+      "name": "East End Club",
+      "imageFile": "venue-ven_05.jpg"
+    },
+    {
+      "id": "ven_06",
+      "name": "Grand Hall",
+      "imageFile": "venue-ven_06.jpg"
+    },
+    {
+      "id": "ven_07",
+      "name": "Harbor Pavilion",
+      "imageFile": "venue-ven_07.jpg"
+    },
+    {
+      "id": "ven_08",
+      "name": "Jazz Cellar",
+      "imageFile": "venue-ven_08.jpg"
+    },
+    {
+      "id": "ven_09",
+      "name": "Lakeside Dome",
+      "imageFile": "venue-ven_09.jpg"
+    },
+    {
+      "id": "ven_10",
+      "name": "Metro Arena",
+      "imageFile": "venue-ven_10.jpg"
+    },
+    {
+      "id": "ven_11",
+      "name": "Northside Warehouse",
+      "imageFile": "venue-ven_11.jpg"
+    },
+    {
+      "id": "ven_12",
+      "name": "Orion Theater",
+      "imageFile": "venue-ven_12.jpg"
+    },
+    {
+      "id": "ven_13",
+      "name": "Riverside Hall",
+      "imageFile": "venue-ven_13.jpg"
+    },
+    {
+      "id": "ven_14",
+      "name": "Studio 9",
+      "imageFile": "venue-ven_14.jpg"
+    },
+    {
+      "id": "ven_15",
+      "name": "Sunset Rooftop",
+      "imageFile": "venue-ven_15.jpg"
+    },
+    {
+      "id": "ven_16",
+      "name": "The Foundry",
+      "imageFile": "venue-ven_16.jpg"
+    },
+    {
+      "id": "ven_17",
+      "name": "Union Square Stage",
+      "imageFile": "venue-ven_17.jpg"
+    },
+    {
+      "id": "ven_18",
+      "name": "Workshop Co-op",
+      "imageFile": "venue-ven_18.jpg"
+    }
+  ]
+}
