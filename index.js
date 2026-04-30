@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { randomBytes } from "node:crypto";
-import { readFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { createReadStream, readFileSync, statSync } from "node:fs";
+import { dirname, join, resolve as resolvePath } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createSchema, createYoga } from "graphql-yoga";
 import { createServer } from "node:http";
@@ -9,7 +9,9 @@ import { createServer } from "node:http";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataPath = join(__dirname, "data.json");
 const usersPath = join(__dirname, "users.json");
+const venuesPath = join(__dirname, "venues.json");
 const schemaPath = join(__dirname, "schema.graphql");
+const imagesDir = join(__dirname, "images");
 
 const env = {
   errorRate: Math.min(100, Math.max(0, Number(process.env.ERROR_RATE ?? 0))),
@@ -32,6 +34,10 @@ async function beforeEveryOp() {
 /** Deep clone of event/ticket data from file; updated in memory when tickets are added to cart. */
 const catalog = structuredClone(JSON.parse(readFileSync(dataPath, "utf8")));
 const userRecords = JSON.parse(readFileSync(usersPath, "utf8"));
+const venuesData = JSON.parse(readFileSync(venuesPath, "utf8"));
+
+/** @type {Map<string, {id: string, name: string}>} venue id -> venue record */
+const venuesById = new Map(venuesData.venues.map((v) => [v.id, v]));
 
 /** @type {Map<string, string>} accessToken -> username (demo only; not for production) */
 const activeSessions = new Map();
@@ -41,6 +47,11 @@ const userCarts = new Map();
 
 /** @type {Map<string, Array<OwnedTicketData>>} user id (e.g. usr_1) -> purchased tickets */
 const userWallets = new Map();
+
+// NOTE: storing raw PANs in memory is for this assignment only. In production a
+// payment processor token (e.g. Stripe payment method id) would be stored instead.
+/** @type {Map<string, string>} username -> saved credit card number */
+const userCreditCards = new Map();
 
 /**
  * @typedef {object} CartLineData
@@ -206,6 +217,14 @@ function searchEventsByTitle(query) {
   return catalog.events.filter((e) => e.title.toLowerCase().includes(lower));
 }
 
+/** Build an absolute URL for a static image, using the incoming request's host so it works behind any port/proxy. */
+function buildImageUrl(ctx, imageFile) {
+  const headers = ctx?.request?.headers;
+  const host = headers?.get?.("host") ?? `localhost:${process.env.PORT ?? 4000}`;
+  const proto = headers?.get?.("x-forwarded-proto") ?? "http";
+  return `${proto}://${host}/images/${imageFile}`;
+}
+
 const resolvers = {
   Query: {
     events: async () => {
@@ -258,6 +277,11 @@ const resolvers = {
   },
   Event: {
     tickets: (parent) => parent.tickets ?? [],
+    venue: (parent) => venuesById.get(parent.venueId) ?? null,
+    imageUrl: (parent, _args, ctx) => buildImageUrl(ctx, parent.imageFile),
+  },
+  Venue: {
+    imageUrl: (parent, _args, ctx) => buildImageUrl(ctx, parent.imageFile),
   },
   User: {
     ticketWallet: (parent) => userWallets.get(parent.id) ?? [],
@@ -269,6 +293,7 @@ const resolvers = {
       const w = userWallets.get(parent.id);
       return w ? w.length : 0;
     },
+    creditCardNumber: (parent) => userCreditCards.get(parent.username) ?? null,
   },
   Mutation: {
     login: async (_parent, args) => {
@@ -383,6 +408,25 @@ const resolvers = {
       cart.length = 0;
       return { error: null, purchasedTickets: added };
     },
+    saveCreditCard: async (_parent, args) => {
+      await beforeEveryOp();
+      if (shouldMockFail()) {
+        return { error: MOCK_FAILURE, user: null };
+      }
+      const { accessToken, creditCardNumber } = args;
+      const session = getSessionWithError(accessToken);
+      if (session.error) {
+        return { error: session.error, user: null };
+      }
+      if (!isPlausibleCardNumber(creditCardNumber)) {
+        return {
+          error: { text: "Invalid or unsupported credit card number." },
+          user: null,
+        };
+      }
+      userCreditCards.set(session.user.username, String(creditCardNumber));
+      return { error: null, user: session.user };
+    },
   },
 };
 
@@ -436,7 +480,52 @@ query Me($t: String!) {
   },
 });
 
-const server = createServer(yoga);
+function tryServeImage(req, res) {
+  if (req.method !== "GET" && req.method !== "HEAD") {
+    return false;
+  }
+  const url = new URL(req.url, "http://placeholder");
+  if (!url.pathname.startsWith("/images/")) {
+    return false;
+  }
+  // Resolve and ensure the result stays inside imagesDir (defense against `..` traversal).
+  const requested = resolvePath(imagesDir, url.pathname.slice("/images/".length));
+  if (!requested.startsWith(imagesDir + "/") && requested !== imagesDir) {
+    res.statusCode = 403;
+    res.end();
+    return true;
+  }
+  let stat;
+  try {
+    stat = statSync(requested);
+  } catch {
+    res.statusCode = 404;
+    res.end();
+    return true;
+  }
+  if (!stat.isFile()) {
+    res.statusCode = 404;
+    res.end();
+    return true;
+  }
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "image/jpeg");
+  res.setHeader("Content-Length", stat.size);
+  res.setHeader("Cache-Control", "public, max-age=86400");
+  if (req.method === "HEAD") {
+    res.end();
+    return true;
+  }
+  createReadStream(requested).pipe(res);
+  return true;
+}
+
+const server = createServer((req, res) => {
+  if (tryServeImage(req, res)) {
+    return;
+  }
+  return yoga(req, res);
+});
 const port = process.env.PORT ? Number(process.env.PORT) : 4000;
 
 server.listen(port, () => {

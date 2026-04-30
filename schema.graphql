@@ -6,8 +6,20 @@ type Event {
   title: String!
   description: String
   startsAt: String!
-  venue: String!
+  venue: Venue!
   tickets: [Ticket!]!
+  """Absolute URL of a JPEG image representing this event, served by this backend."""
+  imageUrl: String!
+}
+
+"""
+A physical venue where events are held. Referenced by `Event.venue`.
+"""
+type Venue {
+  id: ID!
+  name: String!
+  """Absolute URL of a JPEG image representing this venue, served by this backend."""
+  imageUrl: String!
 }
 
 """
@@ -82,6 +94,11 @@ type User {
   walletTicketCount: Int!
   """Tickets purchased by this user after a successful `checkout` (in-memory on the server)."""
   ticketWallet: [OwnedTicket!]!
+  """
+  Credit card number saved via `saveCreditCard` so the user can skip re-entering it
+  at checkout. Null if none has been saved. In-memory on the server.
+  """
+  creditCardNumber: String
 }
 
 """
@@ -137,6 +154,12 @@ type CheckoutPayload {
   purchasedTickets: [OwnedTicket!]
 }
 
+type SaveCreditCardPayload {
+  error: Error
+  """The signed-in user after the card was saved; `error` is set on failure."""
+  user: User
+}
+
 """Human-readable error text for a failed operation. Always null when the call succeeds."""
 type Error {
   text: String!
@@ -165,4 +188,10 @@ type Mutation {
   The card is validated (length and Luhn) for a believable flow; it is not stored. Requires a valid `accessToken`.
   """
   checkout(accessToken: String!, creditCardNumber: String!): CheckoutPayload!
+  """
+  Save a credit card number on the signed-in user so they can skip re-entering it at
+  checkout. The card is validated (length and Luhn) and stored in memory. Subsequent
+  reads of `User.creditCardNumber` will return this value. Requires a valid `accessToken`.
+  """
+  saveCreditCard(accessToken: String!, creditCardNumber: String!): SaveCreditCardPayload!
 }
