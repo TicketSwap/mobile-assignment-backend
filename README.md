@@ -6,7 +6,7 @@ There are no strict instructions, no fixed requirements, that is up to you.
 
 Show us what you can do.
 
-Check the APIs available and come up with a plan for a small app that uses them.
+Check the APIs available and come up with a plan for a small app that uses them. Then implement it in a small app.
 - You should not spend more than a day on this assignment
 - If your idea takes longer, scrap something. We understand nobody has infinite time.
 - You do not necessarily have to use all the APIs.
