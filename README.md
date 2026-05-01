@@ -11,11 +11,14 @@ Check the APIs available and come up with a plan for a small app that uses them.
 - If your idea takes longer, scrap something. We understand nobody has infinite time.
 - You do not necessarily have to use all the APIs.
 - The final product should make sense as a POC for a small marketplace app.
-- You will be judged based on your implementation idea and code quality.
+- You will be judged based on both your implementation idea and code quality.
 - Focus on code first, UX later.
 - You are free to use AI to code your solution, we encourage you to do so in order to save time. But remember we might ask you questions about your code. So take your time to understand your code, you are responsible for the code you send us.
 - If you use AI, please share some of your prompt. Add a PROMPTS.txt file to the final assignment.
+- If you are applying as an Android developer, send us a Kotlin project that we can open in the latest Android Studio version. No Flutter. No multi platform code. Just a native app.
+- If you are applying as an iOS developer, send us a Swift project that we can open in the last XCode version. No Flutter. No multi platform code. Just a native app.
 - Do not change this backend code in any way. Use it as is.
+- Feel free to add as many comments as you like to explain us your code.
 - Once done, zip your project (make sure you clean first) and send it to us.
 
 ## Data source
