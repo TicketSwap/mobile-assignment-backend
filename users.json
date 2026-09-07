@@ -2,8 +2,8 @@
   "users": [
     {
       "id": "usr_1",
-      "firstName": "First User",
-      "lastName": "Lovelace",
+      "firstName": "First",
+      "lastName": "User",
       "age": 36,
       "username": "first",
       "password": "user"
