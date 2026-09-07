@@ -148,6 +148,12 @@ type AddToCartPayload {
   cart: Cart
 }
 
+type RemoveFromCartPayload {
+  error: Error
+  """Current cart for the user after a successful removal; `error` is set on failure."""
+  cart: Cart
+}
+
 type CheckoutPayload {
   error: Error
   """Tickets moved into the user wallet after a successful payment; `error` is set on failure."""
@@ -183,6 +189,12 @@ type Mutation {
   Requires a valid `accessToken`.
   """
   addTicketToCart(accessToken: String!, ticketId: ID!): AddToCartPayload!
+  """
+  Remove one unit of a ticket from the signed-in user's cart and give that unit back to
+  in-memory availability for that ticket. Only one unit is removed per call, even when the
+  cart holds several units of the same ticket. Requires a valid `accessToken`.
+  """
+  removeTicketFromCart(accessToken: String!, ticketId: ID!): RemoveFromCartPayload!
   """
   Pay with a card number, move the current cart into `ticketWallet`, and clear the cart.
   The card is validated (length and Luhn) for a believable flow; it is not stored. Requires a valid `accessToken`.
