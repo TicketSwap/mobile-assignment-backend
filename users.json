@@ -2,27 +2,27 @@
   "users": [
     {
       "id": "usr_1",
-      "firstName": "Ada",
-      "lastName": "Lovelace",
+      "firstName": "First",
+      "lastName": "User",
       "age": 36,
-      "username": "ada",
-      "password": "chartreuse"
+      "username": "first",
+      "password": "user"
     },
     {
       "id": "usr_2",
-      "firstName": "Grace",
-      "lastName": "Hopper",
+      "firstName": "Second",
+      "lastName": "User",
       "age": 29,
-      "username": "graceh",
-      "password": "compiler-1952"
+      "username": "second",
+      "password": "user"
     },
     {
       "id": "usr_3",
-      "firstName": "Linus",
-      "lastName": "Torvalds",
+      "firstName": "Third",
+      "lastName": "User",
       "age": 30,
-      "username": "linus",
-      "password": "git-init"
+      "username": "third",
+      "password": "user"
     }
   ]
 }

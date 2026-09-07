@@ -367,6 +367,34 @@ const resolvers = {
       getOrCreateCart(username).push(line);
       return { error: null, cart: toGraphqlCart(username) };
     },
+    removeTicketFromCart: async (_parent, args) => {
+      await beforeEveryOp();
+      if (shouldMockFail()) {
+        return { error: MOCK_FAILURE, cart: null };
+      }
+      const { accessToken, ticketId } = args;
+      const session = getSessionWithError(accessToken);
+      if (session.error) {
+        return { error: session.error, cart: null };
+      }
+      const username = session.user.username;
+      const found = findTicketInCatalog(ticketId);
+      if (!found) {
+        return { error: { text: "Unknown ticket id." }, cart: toGraphqlCart(username) };
+      }
+      const cart = getOrCreateCart(username);
+      // Each cart line is one unit, so one call removes one unit (the first match).
+      const index = cart.findIndex((line) => line.ticketId === ticketId);
+      if (index === -1) {
+        return {
+          error: { text: "This ticket is not in your cart." },
+          cart: toGraphqlCart(username),
+        };
+      }
+      cart.splice(index, 1);
+      found.ticket.quantityAvailable += 1;
+      return { error: null, cart: toGraphqlCart(username) };
+    },
     checkout: async (_parent, args) => {
       await beforeEveryOp();
       if (shouldMockFail()) {
@@ -454,6 +482,13 @@ mutation Login {
 
 mutation AddCart($t: String!, $tk: ID!) {
   addTicketToCart(accessToken: $t, ticketId: $tk) {
+    error { text }
+    cart { lines { ticketId eventTitle ticketLabel priceCents } }
+  }
+}
+
+mutation RemoveCart($t: String!, $tk: ID!) {
+  removeTicketFromCart(accessToken: $t, ticketId: $tk) {
     error { text }
     cart { lines { ticketId eventTitle ticketLabel priceCents } }
   }
