@@ -13,7 +13,7 @@ Check the APIs available and come up with a plan for a small app that uses them.
 - Feel free to reach out with questions if something is not clear or if you would like to discuss a specific idea.
 - The final product should make sense as a POC for a small marketplace app.
 - You will be judged based on both your implementation idea and code quality.
-- Focus on code first, UX later.
+- Focus on code and usability over visual polish. We do value an intuitive user experience.
 - You are free to use AI to code your solution, we encourage you to do so in order to save time. But remember we might ask you questions about your code. So take your time to understand your code, you are responsible for the code you send us.
 - If you use AI, please share some of your prompt. Add a PROMPTS.txt file to the final assignment.
 - If you are applying as an Android developer, send us a Kotlin project that we can open in the latest Android Studio version. No Flutter. No multi platform code. Just a native app.
